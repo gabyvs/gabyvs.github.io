@@ -16,7 +16,7 @@ const processTemplate = payload => payload
 const writeReadme = postList => {
     const tPath = path.resolve(pwd, './templates/README.tmd');
     const rPath = path.resolve(pwd, './README.md');
-    const aPath = path.resolve(pwd, './about.md');
+    const aPath = path.resolve(pwd, './about-text.md');
 
     streamFs.readFile(aPath)
         .map(about => { return { about: about, postList: postList }})

@@ -8,7 +8,7 @@ import {Archive} from './blogml/archive';
 import {Post} from './models/post';
 
 declare const require;
-const about = require('../about.md');
+const about = require('../about-text.md');
 
 const sections = [
     { url: '/', displayText: 'Recent' }, // TODO: change this
