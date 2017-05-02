@@ -1,0 +1,100 @@
+//TODO: change this to less, remove stylus from package.json and webpack base config loaders
+@import "./styles/normalize"
+@import "./styles/zeroing"
+@require "./styles/colors"
+@require "./styles/variables"
+
+body
+  color $color-default
+  line-height 1.6
+  font-size $content-box-font-size
+  font-variant-ligatures: common-ligatures;
+  font-family 'LMRoman', "Bookman", Georgia, "Times New Roman", serif
+  background-image url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNCIgaGVpZ2h0PSI0Ij4KPHJlY3Qgd2lkdGg9IjYiIGhlaWdodD0iNiIgZmlsbD0iI2YyZjJmMiI+PC9yZWN0Pgo8ZyBpZD0iYyI+CjxyZWN0IHdpZHRoPSIzIiBoZWlnaHQ9IjMiIGZpbGw9IiNmYWZhZmEiPjwvcmVjdD4KPHJlY3QgeT0iMSIgd2lkdGg9IjMiIGhlaWdodD0iMiIgZmlsbD0iI2Y2ZjZmNiI+PC9yZWN0Pgo8L2c+Cjx1c2UgeGxpbms6aHJlZj0iI2MiIHg9IjMiIHk9IjMiPjwvdXNlPgo8L3N2Zz4=")
+
+h1, h2, h3, h4, h5, h5
+  line-height 120%
+  font-family 'Lato', Arial, Helvetica, Sans-serif
+  font-weight 400
+  a
+    color $color-header-link
+  a:hover
+    color $color-header-link-hover
+
+h1
+  font-size 220%
+  margin-bottom 6vh
+  margin-top 4vh
+h2
+  font-size 190%
+  margin-bottom 3.5vh
+  margin-top 5vh
+h3
+  font-size 160%
+  margin-bottom 2.6vh
+  margin-top 4vh
+h4
+  font-size 130%
+h5
+  font-size 100%
+h6
+  font-size 80%
+
+a
+  cursor pointer
+  text-decoration none
+  color $color-link
+
+a:hover
+  text-decoration none
+  color: $color-link-hover
+
+.content
+  content-box()
+  ul
+    list-style-type none
+    position relative
+
+  li:before
+    content "\2022"
+    float left
+    font-size 90%
+    line-height 170%
+    margin-right 1vw
+
+pre
+  font-size 75%
+  font-variant-ligatures: none;
+  margin-bottom 2.3vh
+  margin-top 2.3vh
+  overflow scroll
+  color $color-code
+  .keyword
+    font-weight bold
+    color $color-deepBlue-text
+  .string
+    font-weight bold
+    color $color-green-text
+  .number
+    color $color-blue-text
+  .arrow
+    color $color-magenta-text
+  .literal
+    color $color-cyan-text
+  .comment
+    color $color-code-light
+    font-style italic
+
+p
+  margin-bottom 1.5vw
+
+p code
+  font-variant-ligatures: none;
+  color $color-code
+  margin-left 3px
+  margin-right 5px
+  font-size 90%
+
+
+.aboutBlock
+  wrapper-padding()

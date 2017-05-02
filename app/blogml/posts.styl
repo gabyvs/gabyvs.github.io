@@ -1,0 +1,25 @@
+@require "../styles/colors"
+@require "../styles/variables"
+
+.post-container
+  border-bottom 1px solid $color-border-light
+  wrapper-padding()
+
+.post
+  margin-bottom 5vh
+
+.metadata
+  font-size 80%
+  .block
+    display block
+  .timestamp
+    font-style italic
+    color rgba($color-secondaryText, .5)
+    border 1px solid rgba($color-blueGrey, .1)
+    border-radius 1.25vh
+    line-height 2.5vh
+    padding 0 2vh
+    background-color rgba($color-blueGrey, .03)
+
+    .timePart
+      display inline
