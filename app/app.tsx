@@ -11,14 +11,24 @@ declare const require;
 const about = require('../about-text.md');
 
 const sections = [
-    { url: '/', displayText: 'Recent' }, // TODO: change this
+    { url: '/', displayText: 'Recent' },
     { url: '/about', displayText: 'About' },
     { url: '/archive', displayText: 'Archive' }
 ];
 
 const rPost = /^\/posts\/([^\/]+)$/;
 
-const About = () =>  <div className="aboutBlock content"><MdView node={about} /></div>;
+const About = () => {
+    return (
+        <div className="aboutBlock content">
+            <MdView node={about} />
+            <div className="profile-icons">
+                <a href="https://github.com/gabyvs"><img className="github-icon" alt="GitHub" src="../img/GitHub-Mark-32px.png"/></a>
+                <a href="https://www.linkedin.com/in/gabriela-v%C3%A1zquez-95707b27/"><img className="linkedin-icon" alt="LinkedIn" src="../img/Logo-Black-28px-TM.png"/></a>
+            </div>
+        </div>
+    );
+};
 
 const NoMatch = () => (<h1>404!</h1>);
 
