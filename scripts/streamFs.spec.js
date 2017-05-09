@@ -16,7 +16,7 @@ describe('Stream FS', () => {
             .subscribe(
                 n => {
                     const j = JSON.parse(n);
-                    expect(j.name).toBe('wigahluk-page');
+                    expect(j.name).toBe('blog');
                     done()
                 }
             );

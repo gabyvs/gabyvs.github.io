@@ -22,7 +22,7 @@ describe('Stream FS', () => {
     it('Creation Date', done => {
         git.created('./package.json').subscribe(
             n => {
-                expect(n).toBe(1411708565000); // it happens to be this one :)
+                expect(n).toBe(1493697887000);
                 done();
             }
         );
