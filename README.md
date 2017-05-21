@@ -11,5 +11,6 @@ I do love traveling and food, specially if they come together. I really hope som
 
 ## Content
 
+* [ Trying out Handlebars with Gulp](posts/handlebars.md) (2017/05/20)
 * [ Writing a Gulp starter project](posts/gulp.md) (2017/05/08)
  

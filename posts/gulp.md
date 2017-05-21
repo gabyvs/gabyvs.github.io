@@ -48,7 +48,6 @@ and generate minified, uglified and compiled versions of those files into dist f
 and start by importing all the helper plugins.
 
 ```javascript
-const buffer        = require('vinyl-buffer');
 const browserSync   = require('browser-sync').create();
 const browserify    = require('browserify');
 const gulp          = require('gulp');
@@ -57,6 +56,7 @@ const less          = require('gulp-less');
 const minifyCss     = require('gulp-minify-css');
 const sourcemaps    = require('gulp-sourcemaps');
 const uglify        = require('gulp-uglify');
+const buffer        = require('vinyl-buffer');
 const source        = require('vinyl-source-stream');
 
 ```
