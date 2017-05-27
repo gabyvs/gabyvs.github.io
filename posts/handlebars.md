@@ -376,17 +376,20 @@ The controller will have the logic that the templates require for us to be able 
 ```javascript
 var service = require('./service');
 
+function addListener (listItem) {
+    listItem.addEventListener('click', function () {
+        var id = listItem.getAttribute('data-id');
+        service.setCurrent(id);
+        service.increment();
+        updateCount();
+    });
+}
+
 function registerClick () {
-    var id;
     var listItems = document.querySelectorAll('#choices li');
 
     listItems.forEach(function (item) {
-        item.addEventListener('click', function () {
-            id = this.getAttribute('data-id');
-            service.setCurrent(id);
-            service.increment();
-            updateCount();
-        });
+        addListener(item);
     });
 }
 
