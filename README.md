@@ -11,6 +11,7 @@ I do love traveling and food, specially if they come together. I really hope som
 
 ## Content
 
+* [ Writing a Progressive Web App from scratch (Part 1)](posts/pwa1.md) (Invalid date)
 * [ Trying out Angular Material for Angular 2.4.10](posts/ngmaterial.md) (2017/06/03)
 * [ Trying out Handlebars with Gulp](posts/handlebars.md) (2017/05/20)
 * [ Writing a Gulp starter project](posts/gulp.md) (2017/05/08)
