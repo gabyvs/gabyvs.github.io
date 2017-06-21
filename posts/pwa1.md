@@ -70,12 +70,17 @@ Cool! That list looks good. So, I will probably divide my work in big chunks, to
 
 I think that the big steps I will follow are:
 
-1. Define the problem (this blog post)
-2. Research
-3. Design
-4. POC: Wire everything with stubs
-5. MVP 
-6. Tests
+1 Define the problem (this blog post)
+
+2 Research
+
+3 Design
+
+4 POC: Wire everything with stubs
+
+5 MVP
+ 
+6 Tests
 
 After that, I will probably start using the PWA so I can come up with feedback and required improvements, and then start a second round.
 
