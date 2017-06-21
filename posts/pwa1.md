@@ -3,7 +3,7 @@ Writing a Progressive Web App from scratch (Part 1)
 
 Recently, the app that I usually use for making my grocery list stopped being useful for us. And it
 is not that it does not work anymore or somehow it broke down. The part that is not working for us anymore is the fact that in the
-store where we do our shopping is literally no internet signal. So you fill out your shopping list at home and everything works well,
+store where we do our shopping there is literally no internet signal. So you fill out your shopping list at home and everything works well,
 but as soon as you arrive to the supermarket and open the app, there is no way for you to see your list because the app is trying
 to reach an unreachable server.
 
