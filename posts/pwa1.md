@@ -66,7 +66,7 @@ Also, the following functionality could be added as well
 
 Cool! That list looks good. So, I will probably divide my work in big chunks, to not get overwhelmed.
 
-## Plan
+## The Plan
 
 I think that the big steps I will follow are:
 
