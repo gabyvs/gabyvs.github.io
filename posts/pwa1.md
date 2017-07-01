@@ -45,6 +45,10 @@ Additionally, it has the following characteristics:
 * All those users have access to the same list
 * It works offline and sync once connection is available
 
+I was thinking that, potentially, any user can come to the PWA and use it as a guest, which basically means one list, no sync.
+Only logged in users would have the sync functionality. That way I can show the PWA to people without having to add them to my
+initial (tiny) list of users.
+
 ### Extended Scenarios
 
 For future versions, users can:
