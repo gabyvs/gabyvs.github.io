@@ -15,7 +15,22 @@ I used these main sources
 * A little outdated but very interesting [article](https://developers.google.com/web/updates/2015/12/getting-started-pwa) written by Addy Osmani on how to get started with PWAs
 * And finally a [sampler](https://pwa.rocks/) of some very cool PWAs 
 
-Once I had read them, I started with the design of my very own PWA.
+The next question I need to answer is: which technologies, frameworks and tools I am going to use to build this?
+
+I have already decided to try out Angular 4 and Angular Material 2. I'm not entirely sure if I would need Ionic on top of that, 
+because I don't need to create a native app, but instead only a PWA that runs on the browser... but well, it's a possibility.
+
+Regarding the backend, simple database for storage and deployment of my files, I think I will try Firebase because I want to try it out some Google products.
+But, apparently there are some cool alternatives out there, although some of them I would need to combine with my own database or other things... Here
+are some of the alternatives that I checked out (very briefly)
+
+* [Deployd](http://deployd.com/)
+* [Deepstream](https://deepstream.io/)
+* [Meteor](https://www.meteor.com/)
+* [Backendless](https://backendless.com/)
+
+
+Once I had read (more like skimmed) all those sources, I started with the design of my very own PWA.
 
 ## The Design
 
