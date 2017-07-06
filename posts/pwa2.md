@@ -17,8 +17,8 @@ I used these main sources
 
 The next question I need to answer is: which technologies, frameworks and tools I am going to use to build this?
 
-I have already decided to try out Angular 4 and Angular Material 2. I'm not entirely sure if I would need Ionic on top of that, 
-because I don't need to create a native app, but instead only a PWA that runs on the browser... but well, it's a possibility.
+I have already decided to try out Angular 4 and Angular Material 2. I'm not entirely sure if I would need Ionic on top of that, but they integrate
+with Angular 4 out of the box, so I will probably try it out.
 
 Regarding the backend, simple database for storage and deployment of my files, I think I will try Firebase because I want to try it out some Google products.
 But, apparently there are some cool alternatives out there, although some of them I would need to combine with my own database or other things... Here
